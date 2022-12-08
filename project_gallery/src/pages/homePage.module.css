@@ -1,0 +1,42 @@
+.title {
+    color: white;
+    font-size: 2vw;
+    top: 0;
+    margin: 0;
+}
+
+.header {
+    width: 100vw;
+    background-color: black;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    height: 30vh;
+}
+
+.titleSection {
+    background-color: rgb(28, 28, 28);
+    top: 0;
+    height: 11vh;
+    border-color: grey;
+    border-width: 1px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    margin-top: 0;
+}
+
+.sectionHeader {
+    color: white;
+    margin: 0;
+    position: absolute;
+    left: 20%;
+    font-size: 2vw;
+}
+
+.NavBarDiv {
+    margin-top: 2%;
+}
