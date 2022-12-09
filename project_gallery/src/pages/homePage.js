@@ -1,8 +1,6 @@
 import styles from "./homePage.module.css";
-import ItemList from "../components/itemList";
-import NavBar from "../components/navBar";
+import TabSelect from "../components/TabSelect";
 import { Text } from "@geist-ui/core";
-import Profile from "../components/profile";
 
 function HomePage() {
     let profileName = "Papgooner";
@@ -10,14 +8,13 @@ function HomePage() {
     return (
         <div>
             <header className={styles.header}>
-                <Text className={styles.title}>Part Selector</Text>
-                <Profile profileName={profileName} />
+                <Text className={styles.title}>My Projects</Text>
                 <div className={styles.NavBarDiv}>
-                    <NavBar />
+                    <TabSelect />
                 </div>
             </header >
             <section className={styles.titleSection}>
-                <Text className={styles.sectionHeader}>Parts</Text>
+                <Text className={styles.sectionHeader}>thing</Text>
             </section>
             <section className={styles.itemSection}>
             </section>
